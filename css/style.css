@@ -1,0 +1,478 @@
+/* 
+    Document   : style
+    Created on : 28.11.2013, 18:30:03
+    Author     : Ekaterina
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html, body { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #555555; 
+    font-weight: lighter;
+    font-size: 16px;
+    font-size: 15.6px;
+    font-family: 'Open Sans', sans-serif;
+    background: url('../img/background.png') repeat;
+}
+a {
+    cursor: pointer;
+    color: #7ba8e0;
+    text-decoration: none;
+}
+::-webkit-input-placeholder { 
+    color:    #aaaaaa;
+    font-weight: lighter;
+}
+:-moz-placeholder { 
+    color:    #aaaaaa;
+    font-weight: lighter;
+}
+::-moz-placeholder { 
+    color:    #aaaaaa;
+    font-weight: lighter;
+}
+:-ms-input-placeholder { 
+    color:    #aaaaaa;
+    font-weight: lighter;
+}
+.top-line {
+    width: 100%;
+    height: 8px;
+    background: url('../img/top-line.png') repeat-x;
+}
+.main-wrap {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 1240px;
+}
+.dark {
+    color: #555555; 
+}
+.blue {
+    color: #FF8E86;
+}
+.bold {
+    font-weight: normal;
+}
+.light {
+    color: #aaaaaa;
+}
+.bolder {
+    font-weight: 400;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.inline {
+    display: inline-block;
+}
+.not-show {
+    display: none;
+}
+.red-text {
+    color: #ff8e86;
+}
+.blue-text {
+    color: #76a7c8;
+}
+input.transparent {
+    font-size: 16px;
+    font-weight: lighter;
+    background-color:transparent;
+    border: none;
+    outline: 0;
+    height:20px;
+    width:160px;
+    color: #555555;
+}
+.numbers {
+    width: 30px;
+    height: 25px;
+    background: #fdfdfd;
+    border: none;
+    box-shadow: inset 1px 1px 3px #f6f6f6;
+    border-radius: 3px;
+    text-align: center;
+}
+.bottom-line {
+    border-bottom: 1px solid #e8e8e8;
+}
+.right-line {
+    border-right: 1px solid #e8e8e8;
+}
+.order, .delivery {
+    overflow: hidden;
+    background: #ffffff;   
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    min-height: 650px;
+}
+.order {
+    width: 486px;    
+    
+    margin-right: 17px;
+}
+.delivery {
+    width: 710px;
+    
+}
+.row {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;  
+}
+.row div {
+    display: inline-block;
+}
+.products .row {
+    border-bottom: 1px solid #e8e8e8;
+}
+.status-icon {
+    background: url('../img/sprites.png') -150px 0 no-repeat;
+    width: 13px;
+    height: 13px; 
+    margin-right: 7px;
+}
+.status {
+    font-size: 14px;
+    margin-left: 30px;
+    color: #8cb453;
+}
+.p-header {
+    color: #76a7c8;
+    font-size: 10.44px;
+    font-weight: lighter;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+}
+.product.first {
+    height: 40px;
+    line-height: 18px;
+}
+.product div {
+    display: inline-block;
+}
+.product.new div {
+    color: #aaaaaa;
+}
+.p-name {
+    width: 465px;
+}
+.p-price {
+    margin-left: 12px;
+    width: 50px
+}
+.p-delete {
+    background: url('../img/sprites.png') -100px -50px no-repeat;
+    width: 10px;
+    height: 10px; 
+}
+.total-price, .final-price {
+    width: 65px;
+    margin-left: 12px;
+}
+#courier {
+    margin-right: 10px;
+}
+.addresses, .delivery-address {
+    width: 354px;
+    position: relative;
+}
+.delivery-address {
+    min-height: 500px;
+    border-left: 1px solid #e8e8e8;
+    min-height: 605px;
+}
+.sort-icon {
+    background: url('../img/sprites.png') 0 -48px no-repeat;
+    width: 8px;
+    height: 9px;
+    margin-left: 5px;
+}
+.sort {
+    font-size: 12px;
+    margin-left: 15px;
+}
+.c-logo {
+    height: 20px; 
+    width: 50px !important;
+}
+#company1 {
+    background-position: -1px -1px;
+    width: 16px;
+    height: 16px;     
+}
+.c-name-block {
+    font-size: 12px;
+    line-height: 15px;
+    width: 170px;
+}
+#shoow-contact .c-name-block{
+    width: 165px;
+}
+.c-name-block p {
+    margin: 0;
+}
+.c-date p {
+    margin: 0;
+    font-size: 17px;
+    color: #7ba8e0;
+    line-height: 15px;
+}
+.c-date p.light {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+.c-price-block {
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+}
+.sort-block {
+    font-size: 14px;
+    height: 52px;
+    border-right: 1px solid #e8e8e8;
+}
+.company {
+    padding: 15px 15px 6px;
+    position: relative;
+    cursor: pointer;
+}
+.da-header {
+    height: 52px;
+}
+.choosed {
+    box-shadow: 0 0 6px #E8E8E8;
+}
+.da-address{
+    line-height: 45px;
+    overflow: hidden;
+}
+.da-address div.address-input{
+    padding: 0 15px;
+    display: inline-block;
+}
+.address-input {
+    width: 53px;
+    text-align: center;
+    margin: 0;
+    
+}
+.address-input p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 -12px;
+}
+.address-input.street{
+    width: 229px;
+    text-align: left;
+}
+.address-input .transparent {
+    text-align: center;
+    width: 60px;
+}
+.address-input.street .transparent {
+    text-align: left;
+    width: 250px;
+}
+#comment {
+    font-size: 12px;
+    display: block;
+    line-height: 20px;
+    margin: 10px 10px 20px;
+}
+.d-info {
+    height: 110px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.d-info img {
+    margin-top: 5px;
+}
+.d-info p {
+    float: left;
+    line-height: 20px;
+    margin: 0 0 0 15px;
+    width: 285px;
+}
+.d-when {
+    margin-bottom: 10px;
+}
+.d-comment {
+    font-size: 12px;
+    line-height: 15px;
+}
+.checkbox {
+    background: url("../img/sprites.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 13px;
+    width: 25px;
+    cursor: pointer;
+}
+.checkbox.checked {
+    background: url("../img/sprites.png") -50px 0 no-repeat;
+    height: 13px;
+    width: 25px;
+}
+.checkboxes div.row {
+    height: 30px;
+}
+.d-total-price {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    height: 40px;
+    border-top: 1px solid #e8e8e8;
+    width: 50%;
+}
+.d-total-price div {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+.d-total-price div:first-child {
+    width: 100px;
+}
+#total-price {
+    float: right;
+}
+#show-projects .da-header {
+    font-size: 14px;
+}
+.company-info  {
+    position: relative;
+}
+#show-projects .company-info  {
+     margin-bottom: 5px;
+}
+#show-projects .da-header a{
+    color: #555555;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#show-projects .company-info .row {
+    line-height: 30px;
+    height: 30px;   
+}
+#show-projects .company-info img {
+     margin-left: 0;
+    width: 355px;
+}
+.time {
+    background: url("../img/sprites.png") -300px 0 no-repeat;
+    height: 13px;
+    width: 25px;
+}
+.tel {
+    background: url("../img/sprites.png") -200px 0 no-repeat;
+    height: 13px;
+    width: 25px;
+}
+.card {
+    background: url("../img/sprites.png") -250px 0 no-repeat;
+    height: 13px;
+    width: 25px;
+}
+#company0 {
+width: 16px;
+height: 16px; 
+}
+#company1 {
+   background: url("../img/companies.png") 10px -2px no-repeat;
+width: 16px;
+height: 16px; 
+}
+#company2 {
+    background: url("../img/companies.png") no-repeat scroll -44px -1px rgba(0, 0, 0, 0);
+    height: 24px;
+    width: 46px;
+}
+#company3 {
+    background: url("../img/companies.png") -99px -1px no-repeat;
+width: 46px;
+height: 16px; 
+}
+#company4 {
+    background: url("../img/companies.png") -149px 0 no-repeat;
+width: 44px;
+height: 20px; 
+}
+#company5 {
+    background: url("../img/companies.png") -193px -1px no-repeat;
+width: 17px;
+height: 16px; 
+}
+#company6 {
+    background: url("../img/companies.png") -103px 0 no-repeat;
+    width: 25px;
+    height: 16px; 
+}
+.p-name .transparent {
+    width: 310px;
+}
+.product.new .p-amount {
+    margin-left: 5px;
+}
+.product.new .p-price {
+    width: 56px;
+}
+.my-foto {
+    width: 490px;
+}
+.screen {
+
+}
+.website {
+    height: 150px;
+    left: 67px;
+    overflow: hidden;
+    position: absolute;
+    top: 33px;
+    width: 242px;
+    z-index: 1;
+}
+.website img {
+    width: 220px !important;
+}
+.dash-line {
+    margin-bottom: 8px;
+}
+.hire-me {
+    background: none repeat scroll 0 0 #FF8E86;
+    border: medium none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    margin: 35px auto;
+    width: 454px;
+    cursor: pointer;
+}
+.role-text, .language-text {
+    margin-left: 24px;
+}
+#projects {
+    margin-right: 10px;
+}
+#show-contact div{
+    margin: 85px auto;
+    width: 475px;
+}
+#show-contact div a{
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
