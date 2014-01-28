@@ -476,3 +476,9 @@ height: 16px;
     text-decoration: underline;
     width: 100%;
 }
+.document {
+    width: 100px;
+    float: left;
+    margin-right: 50px;
+    cursor: pointer;
+}
