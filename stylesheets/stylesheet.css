@@ -477,8 +477,8 @@ height: 16px;
     width: 100%;
 }
 .document {
-    width: 100px;
-    float: left;
-    margin-right: 50px;
     cursor: pointer;
+    float: left;
+    margin: 40px 30px 0 55px;
+    width: 132px;
 }
