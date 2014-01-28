@@ -15,7 +15,7 @@ html, body {
     font-size: 16px;
     font-size: 15.6px;
     font-family: 'Open Sans', sans-serif;
-    background: url('../img/background.png') repeat;
+    background: url('../images/background.png') repeat;
 }
 a {
     cursor: pointer;
@@ -41,7 +41,7 @@ a {
 .top-line {
     width: 100%;
     height: 8px;
-    background: url('../img/top-line.png') repeat-x;
+    background: url('../images/top-line.png') repeat-x;
 }
 .main-wrap {
     margin: 20px auto;
@@ -135,7 +135,7 @@ input.transparent {
     border-bottom: 1px solid #e8e8e8;
 }
 .status-icon {
-    background: url('../img/sprites.png') -150px 0 no-repeat;
+    background: url('../images/sprites.png') -150px 0 no-repeat;
     width: 13px;
     height: 13px; 
     margin-right: 7px;
@@ -171,7 +171,7 @@ input.transparent {
     width: 50px
 }
 .p-delete {
-    background: url('../img/sprites.png') -100px -50px no-repeat;
+    background: url('../images/sprites.png') -100px -50px no-repeat;
     width: 10px;
     height: 10px; 
 }
@@ -192,7 +192,7 @@ input.transparent {
     min-height: 605px;
 }
 .sort-icon {
-    background: url('../img/sprites.png') 0 -48px no-repeat;
+    background: url('../images/sprites.png') 0 -48px no-repeat;
     width: 8px;
     height: 9px;
     margin-left: 5px;
@@ -312,13 +312,13 @@ input.transparent {
     line-height: 15px;
 }
 .checkbox {
-    background: url("../img/sprites.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../images/sprites.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 13px;
     width: 25px;
     cursor: pointer;
 }
 .checkbox.checked {
-    background: url("../img/sprites.png") -50px 0 no-repeat;
+    background: url("../images/sprites.png") -50px 0 no-repeat;
     height: 13px;
     width: 25px;
 }
@@ -368,17 +368,17 @@ input.transparent {
     width: 355px;
 }
 .time {
-    background: url("../img/sprites.png") -300px 0 no-repeat;
+    background: url("../images/sprites.png") -300px 0 no-repeat;
     height: 13px;
     width: 25px;
 }
 .tel {
-    background: url("../img/sprites.png") -200px 0 no-repeat;
+    background: url("../images/sprites.png") -200px 0 no-repeat;
     height: 13px;
     width: 25px;
 }
 .card {
-    background: url("../img/sprites.png") -250px 0 no-repeat;
+    background: url("../images/sprites.png") -250px 0 no-repeat;
     height: 13px;
     width: 25px;
 }
@@ -387,32 +387,32 @@ width: 16px;
 height: 16px; 
 }
 #company1 {
-   background: url("../img/companies.png") 10px -2px no-repeat;
+   background: url("../images/companies.png") 10px -2px no-repeat;
 width: 16px;
 height: 16px; 
 }
 #company2 {
-    background: url("../img/companies.png") no-repeat scroll -44px -1px rgba(0, 0, 0, 0);
+    background: url("../images/companies.png") no-repeat scroll -44px -1px rgba(0, 0, 0, 0);
     height: 24px;
     width: 46px;
 }
 #company3 {
-    background: url("../img/companies.png") -99px -1px no-repeat;
+    background: url("../images/companies.png") -99px -1px no-repeat;
 width: 46px;
 height: 16px; 
 }
 #company4 {
-    background: url("../img/companies.png") -149px 0 no-repeat;
+    background: url("../images/companies.png") -149px 0 no-repeat;
 width: 44px;
 height: 20px; 
 }
 #company5 {
-    background: url("../img/companies.png") -193px -1px no-repeat;
+    background: url("../images/companies.png") -193px -1px no-repeat;
 width: 17px;
 height: 16px; 
 }
 #company6 {
-    background: url("../img/companies.png") -103px 0 no-repeat;
+    background: url("../images/companies.png") -103px 0 no-repeat;
     width: 25px;
     height: 16px; 
 }
