@@ -42,7 +42,7 @@ $(document).ready(function() {
             $('#show-projects .company-info .time-text').html($(this).children('.company-time').val());
             $('#show-projects .company-info .role-text').html($(this).children('.company-role').val());
             $('#show-projects .company-info .language-text').html($(this).children('.company-language').val());
-            $('#show-projects .company-info .website img').attr('src', 'imgages/projects/' + $(this).children('.company-img').val() + '_index.png');
+            $('#show-projects .company-info .website img').attr('src', 'images/projects/' + $(this).children('.company-img').val() + '_index.png');
             $('#show-projects .d-info .d-comment i').html($(this).children('.company-desc').val());
         }
     });
